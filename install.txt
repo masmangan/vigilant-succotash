@@ -1,0 +1,13 @@
+wget http://astah.change-vision.com/files/plugin/astah-plugin-sdk-latest.zip
+
+unzip astah-plugin-sdk-latest.zip
+rm -f astah-plugin-sdk-latest.zip
+
+export ASDK_HOME=./astah-plugin-SDK-1.3
+export PATH=${PATH}:${ASDK_HOME}/bin
+
+Funcionou launch apenas com caminho absoluto:
+export ASDK_HOME=/home/10067320/DriveH/2017-2/esom/plugin-astah/astah-plugin-SDK-1.3
+export PATH=${ASDK_HOME}/bin:${PATH}
+
+

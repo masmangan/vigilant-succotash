@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="br.pucrs.esom.families2persons.actionSet">
+         <menu
+               id="families2persons"
+               label="%menu_group"
+               path="tool/families2persons">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="br.pucrs.esom.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/families2persons/"
+               id="families2persons">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
